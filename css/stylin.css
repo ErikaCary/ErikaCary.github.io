@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+body {
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  color: #35465d;
+  font-size:20px;
+}
+
+h1{
+  font-size: 55px;
+  font-weight:400;
+  margin-top:10px;
+}
+
+h2{
+  font-size: 41px;
+  font-weight:400;
+}
+
+h3{
+  font-size: 35px;
+  font-weight:400;
+}
+
+h4{
+  font-size: 30px;
+}
+
+h5{
+  font-size: 25px;
+  font-weight:400;
+}
+
+#top-page {
+  position:absolute;
+}
+
+header {
+  width:100%;
+  position:fixed;
+  top:0px;
+  z-index:1000;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header {
+  padding-top:20px;
+}
+
+a {
+  color: #35465d;
+  transition: all 0.2s linear;
+}
+
+a:hover, a:focus {
+  color:#FFB886;
+  font-weight:600;
+  text-decoration: none;
+  transform: translateY(-5px);
+  transition-timing-function: ease-in-out;
+}
+
+.logo {
+  float:left;
+}
+
+.logoImg {
+  background: url("../img/waffles1.png");
+  background-repeat: no-repeat;
+}
+
+.logoImg:hover {
+  background: url("../img/waffles2.png");
+  background-repeat: no-repeat;
+}
+
+.nav-sect {
+  padding-left:10px;
+  padding-right:35px;
+}
+
+.navlinks {
+  float:right;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.nav-link {
+  vertical-align:middle;
+}
+
+.navlist {
+  list-style-type: none;
+}
+
+.masthead {
+  padding-top:230px;
+  padding-bottom:180px;
+}
+
+.work {
+  background: url("../img/bkgr.jpg");
+  background-repeat: repeat-x;
+  background-color: #fafafa;
+  margin-top:50px;
+  padding-bottom:90px;
+}
+
+.portfolio-item {
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.portfolio-item-text {
+  background-color: #ffffff;
+  padding-bottom:30px;
+}
+
+.portfolio-item-title {
+  letter-spacing:1.6;
+}
+
+.doin {
+  padding-top: 100px;
+}
+
+.doin-header {
+  font-weight: 500;
+}
+
+.doin-columns {
+  padding-top: 70px;
+}
+
+.doin-column-header {
+  padding-bottom:46px;
+}
+
+.doin-column-header p{
+  font-weight: 500;
+}
+
+.doin-column-header-text {
+  letter-spacing: 1.6px;
+}
+
+.doin-list {
+  font-weight: 300;
+  list-style-type: none;
+  padding-left:0px;
+  padding-bottom:100px;
+}
+
+.doin-list-item{
+  margin-bottom:36px;
+}
+
+footer {
+  padding-top:90px;
+  padding-bottom:90px;
+}
+
+.footer-copy {
+  text-align: left;
+}
+.footer-linkedin {
+  text-align:right;
+}
